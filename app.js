@@ -7,6 +7,7 @@ require("dotenv").config();
 
 const app = express();
 
+const hakim = "123";
 // middleware
 app.use(express.static("public"));
 
